@@ -1,0 +1,52 @@
+#openai-generator-form select,
+#openai-generator-form textarea {
+    width: 100%;
+    max-width: 600px;
+}
+
+#openai-response  {
+    background: #f9f9f9;
+    margin-top: 30px;
+    padding: 15px;
+    border: 1px solid #ddd;
+}
+#openai-response textarea{
+    box-sizing: border-box;
+    max-width: unset;
+    width: 100%;
+    min-height: 300px;
+}
+input.error, textarea.error {
+    border: 1px solid red;
+    background-color: #ffe6e6;
+}
+
+
+ul.location-navigation,
+ul.industry-posts{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 15px;
+    row-gap: 15px;
+    list-style: none;
+    padding: 0;
+}
+
+#custom-contact-form label {
+    font-size: 14px;
+}
+#custom-contact-form input, 
+#custom-contact-form textarea {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    padding: 15px 10px;
+}
+#custom-contact-form button {
+    background: #0065ff;
+    color: #fff;
+    border: 1px solid #0065ff;
+    border-radius: 2px;
+    padding: 8px 12px;
+    cursor: pointer;
+}
